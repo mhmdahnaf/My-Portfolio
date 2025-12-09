@@ -9,10 +9,10 @@
     font-family: -apple-system, sans-serif;
 }
 :root{
-    --bg-color:#fff;
+    --bg-color:#0d0d0e;
     --snd-bg-color:#d5fdf9;
-    --text-color:#000;
-    --main-color:#007f73;
+    --text-color:#f1ddee;
+    --main-color:#d69deb;
 }
 
 html{
@@ -88,7 +88,7 @@ section{
    .home-img img{
     width: 25vw;
     border-radius: 50%;
-    box-shadow: 0 0 25px var(--main-color);
+    box-shadow: 0 0 25px white;
     cursor: pointer;
     animation: floatImage 4s ease-in-out infinite;
     transition: 0.4s ease;
