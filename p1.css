@@ -88,7 +88,7 @@ section{
    .home-img img{
     width: 25vw;
     border-radius: 50%;
-    box-shadow: 0 0 25px white;
+    box-shadow: 0 0 25px rgb(218, 100, 234)hite;
     cursor: pointer;
     animation: floatImage 4s ease-in-out infinite;
     transition: 0.4s ease;
@@ -135,3 +135,69 @@ section{
     margin: 3rem 1.5rem 3rem 0;
     transition: 0.3s ease;
 }
+.social-media a:hover{
+    transform: scale(1.2) translateY(-10px);
+    background-color: var(--main-color);
+    color: var(--bg-color);
+    box-shadow: 0 0 25px var(--main-color);
+}
+.btn{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    box-shadow: none;
+    font-size: 1.6rem;
+    color: var(--bg-color);
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.btn:hover{
+      box-shadow: 0 0 1.6rem var(--main-color);
+}
+
+/*About section*/
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background: var(--bg-color);
+}
+.about-content{
+    margin-left: 3rem;
+   }
+   .about-content h2{
+    font-size: 4rem;
+    font-weight: 4000;
+    line-height: 1.3;
+   }
+   .about-content h3{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.3;
+   }
+   .about-content p{
+    font-size: 1.8rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+   }
+
+   .btn:hover{
+    display: flex;
+   }
+
+   .about-img img{
+    width: 25vw;
+    border-radius: 50%;
+    box-shadow: 0 0 25px whitesmoke;
+    cursor: pointer;
+    animation: floatImage 4s ease-in-out infinite;
+    transition: 0.4s ease;
+   }
+   .about-img img:hover{
+    box-shadow: 0 0 25px var(--main-color),
+                0 0 35px var(--main-color),
+                0 0 45px var(--main-color);
+   }
