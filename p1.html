@@ -35,9 +35,9 @@
             <p>I'm a Web Designer.My expertise is to create and website design,graphic design and many more.</p>
         
             <div class="social-media">
-                <a href="#"><i class='bx bxl-facebook'></i></a>
-                <a href="#"><i class='bx bxl-instagram'></i></a>
-                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="https://www.facebook.com/mdahnaf.mdahnaf.77"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/adif.a.h.n.a.f/"><i class='bx bxl-instagram'></i></a>
+                <a href="https://github.com/mhmdahnaf"><i class='bx bxl-github'></i></a>
             </div>
             <a href="#" class="btn">Download CV</a>
         </div>
@@ -81,20 +81,22 @@
      <!--contact section-->
 
      <section class="contact" id="contact">
+
         <h2 class="heading">Contact <span>Me</span></h2>
 
-        <form action="#">
-            <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="email" name="Email" placeholder="Email Address">
-            </div>
-            <div class="input-box">
-                <input type="number" placeholder="Phone Number">
-                <input type="text" placeholder="Email Subject">
-            </div>
-            <textarea name="message" cols="30" rows="10" placeholder="Your Message"></textarea>
-              <a href="#" class="btn">Send Message</a>
-         </form>
+        <form id="contact-form">
+    <div class="input-box">
+        <input type="text" name="full_name" placeholder="Full Name" required>
+        <input type="email" name="email_address" placeholder="Email Address" required>
+    </div>
+    <div class="input-box">
+        <input type="number" name="phone_number" placeholder="Phone Number">
+        <input type="text" name="email_subject" placeholder="Email Subject">
+    </div>
+    <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn" style="border: none; outline: none; cursor: pointer; display: inline-block;">Send Message</button>
+    </form>
+       
      </section>
 
      <!--footer section-->
@@ -108,5 +110,30 @@
             &copy; Mohammad Ahnaf - All Right Reserved
         </p>
      </footer>
+
+
+     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+         <script type="text/javascript">
+     (function(){
+      
+      emailjs.init("tJOn3-9Kk9xiemTKF"); 
+        })();
+
+      document.getElementById('contact-form').addEventListener('submit', function(event) {
+      event.preventDefault();
+
+      
+      emailjs.sendForm('service_rstpr3o', 'template_l0ewfod', this)
+         .then(function() {
+            alert('Success! Your message has been sent.');
+            document.getElementById('contact-form').reset(); 
+         }, function(error) {
+            alert('Failed to send message. Error: ' + JSON.stringify(error));
+         });
+   });
+</script>
+
+     
 </body>
 </html>
