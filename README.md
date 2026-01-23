@@ -1,21 +1,20 @@
-# My Professional Portfolio
+# 🌐 My Personal Portfolio - Ahnaf
 
-This is my personal portfolio website showcasing my skills, projects, and contact information.
+[![demo live](https://img.shields.io/badge/demo-live-brightgreen)](https://mhmdahnaf.github.io/My-Portfolio/)
+[![repo github](https://img.shields.io/badge/repo-github-blue)](https://github.com/mhmdahnaf/My-Portfolio)
 
-## ✨ Features
-* **Modern UI:** Built with a clean and professional design.
-* **Working Contact Form:** Integrated with **EmailJS** to receive messages directly to my email.
-* **Responsive Design:** Works on all screen sizes.
+A fully responsive personal portfolio website showcasing skills and projects. Built with modern web technologies and best practices.
 
-## 🛠️ Technologies Used
-* **HTML5** & **CSS3**
+### 🔗 Quick Links:
+* **Live Site:** [https://mhmdahnaf.github.io/My-Portfolio/](https://mhmdahnaf.github.io/My-Portfolio/)
+* **Repository:** [https://github.com/mhmdahnaf/My-Portfolio](https://github.com/mhmdahnaf/My-Portfolio)
+
+### ✨ Features
+* ✅ **Fully Responsive Design** – Optimized for desktop, tablet, and mobile devices.
+* ✅ **Working Contact Form** – Integrated with **EmailJS** to receive messages directly.
+* ✅ **Clean UI** – Professional and modern look.
+
+### 🛠️ Technologies Used
+* **HTML5 & CSS3**
 * **JavaScript**
 * **EmailJS API**
-
-## 🚀 How to Run Locally
-1. Clone the repository:
-   `git clone https://github.com/mhmdahnaf/My-Portfolio.git`
-2. Open `p1.html` in your browser.
-
-
-Developed by **Ahnaf**
